@@ -66,9 +66,9 @@ h1 {
 .hero article {
     position: absolute;
     top: 380px;
-    background-color: var(--accent1-color);
-    color: #fff;
+    background-color: var(--accent2-color);
     opacity: 0.7;
+    color: black;
 }
 
 section {
