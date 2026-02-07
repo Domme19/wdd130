@@ -145,9 +145,28 @@ h1 {
     text-align: center;
 }
 
+/* history section */
+
+.history-section .history-div {
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.history-section img {
+    width: 200px;
+    height: 150px;
+}
+
 section {
     margin-left: 0px;
     margin-right: 0px;
+}
+
+section p {
+    color: black;
 }
 
 section h2 {
