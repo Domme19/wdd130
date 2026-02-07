@@ -128,6 +128,22 @@ h1 {
 }
 
 /* grid picture section */
+.grid-picture {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.grid-picture img {
+    width: 130px;
+    height: 100px;
+}
+
+.grid-picture figcaption {
+    text-align: center;
+}
 
 section {
     margin-left: 0px;
