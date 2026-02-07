@@ -29,7 +29,54 @@ footer {
     margin: 0 auto;
 }
 
-h1,
+/* enhancement of About Us Page*/
+/* set the header to a grid */
+
+header {
+    background-color: #E6E6FA;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 120px 1fr;
+    margin-bottom: 1rem;
+}
+
+.header-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: black;
+}
+
+/* footer layout */
+footer {
+    background-color: #E6E6FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
