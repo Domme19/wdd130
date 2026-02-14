@@ -216,3 +216,119 @@ iframe {
     object-fit: cover;
     border-radius: 6px;
 }
+
+/* form */
+.contact-form {
+    width: 100%;
+    max-width: 400px;
+    /* Adjust as needed */
+    padding: 20px;
+    background-color: #fff;
+    /* border: 1px solid #ddd; */
+}
+
+/* Basic Form Group Styling */
+.form-group-input {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form-radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-class {
+    margin-left: 20px;
+}
+
+/* Label Styling */
+.form-group label:not(.radio-option label, .checkbox-group label) {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input and Textarea Styling */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    /* Light border */
+    box-sizing: border-box;
+    /* Includes padding and border in the element's total width and height */
+    margin-top: 2px;
+}
+
+textarea {
+    resize: vertical;
+    /* Allows vertical resizing */
+}
+
+/* Radio Button Group Styling */
+.message-label {
+    width: 80px;
+    margin-right: 5px;
+}
+
+.radio-group label:first-child {
+    font-weight: normal;
+    /* The main "Message Purpose" label */
+    margin-bottom: 10px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    /* Spacing between radio options */
+}
+
+.radio-option input[type="radio"] {
+    margin-right: 10px;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.radio-option label {
+    font-weight: normal;
+    display: inline;
+}
+
+/* Checkbox Styling */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    /* Space between checkbox and text */
+    width: auto;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.checkbox-group label {
+    font-weight: normal;
+}
+
+/* Submit Button Styling */
+.submit-button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
