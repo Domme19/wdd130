@@ -179,3 +179,15 @@ section h2 {
 section p {
     color: black;
 }
+
+/* contact page */
+.address-section {
+    text-align: center;
+    line-height: 1.5;
+    /* background-color: lightblue; */
+}
+
+.address-section .company-name {
+    color: black;
+    font-size: 30px;
+}
